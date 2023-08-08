@@ -1,0 +1,60 @@
+Airplane Seating Project
+This Java project simulates an airplane seating arrangement and booking system. The program lets users select and book seats based on their preferences and availability.
+
+Features
+The seating arrangement consists of 7 rows and 5 columns, offering a total of 35 seats.
+Seats are labeled with digits 1 to 7 and letters A to D.
+Each seat can be either available or booked.
+Users can choose and book available seats.
+The program provides a graphical representation of the seating arrangement.
+It prevents users from booking already booked seats.
+
+How to Run
+1- Compile the Java source code by executing the following command in your terminal:
+javac Main.java
+
+2- Run the compiled program:
+java Main
+
+3- Follow the on-screen prompts to select and book seats.
+
+Usage
+The program displays the initial seating arrangement.
+Users can input the digit and letter of the seat they want to book.
+The program checks if the seat is available, books it if available, and updates the seating arrangement.
+Users continue booking seats until all seats are booked.
+
+Sample Output
+[ Initial Seating Arrangement ]
+1	A	B	C	D	
+2	A	B	C	D	
+3	A	B	C	D	
+4	A	B	C	D	
+5	A	B	C	D	
+6	A	B	C	D	
+7	A	B	C	D	
+
+Please input the seat you want, first input the digit of the seat then the letter:
+Digit(1-7): 3
+Letter(a-d): B
+
+[ Seat Booked Successfully ]
+1	A	B	C	D	
+2	A	B	C	D	
+3	X	B	C	D	
+4	A	B	C	D	
+5	A	B	C	D	
+6	A	B	C	D	
+7	A	B	C	D	
+
+...
+
+[ All Seats Booked ]
+
+Credits
+This project was developed by Laiba Istkar. It serves as a simple demonstration of Java programming and object-oriented concepts.
+
+Contact
+If you have any questions or suggestions about this project, feel free to contact me at laibaistkar0@gmail.com.
+
+
