@@ -1,0 +1,38 @@
+Box Produce Management System - Java
+This Java program simulates a box produce management system, allowing users to manage the contents of a produce box and make selections based on certain conditions.
+
+Overview
+The Box Produce Management System is designed to perform the following tasks:
+
+Initialize a box with produce items.
+Randomly select produce items for the box.
+Allow users to enter their preferred produce items.
+Process produce selections based on specific conditions.
+
+Features
+Random produce selection: The system randomly selects produce items to populate the box.
+User input: Users can enter their preferred produce items.
+Salsa offer: A salsa recipe flier is provided based on produce choices.
+
+How to Run
+Clone or download the repository to your local machine.
+Open the project in your Java development environment.
+Compile and run the main class to start the program.
+
+Usage
+The program initializes a produce box with a set of available produce items from the contents.txt file.
+Produce items are randomly selected for the box.
+Users are prompted to enter their preferences for three produce items.
+The program processes the selections, applying special conditions for salsa offer.
+The updated contents of the box are displayed along with salsa offers.
+
+Files
+boxProduce.java: Defines the boxProduce class responsible for managing produce items and selections.
+main.java: Contains the main class with the program's logic.
+contents.txt: Contains the list of available produce items.
+
+Dependencies
+None
+
+Contributions
+Contributions are welcome! If you'd like to enhance the program or add new features, feel free to fork this repository, make your changes, and submit a pull request.
