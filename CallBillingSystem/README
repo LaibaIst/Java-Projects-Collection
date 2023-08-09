@@ -1,0 +1,29 @@
+Call Billing System
+This program simulates a call billing system that calculates and displays charges for both national and international calls. It takes user input for call details and calculates charges based on call duration and specific rates. The program consists of three main classes: main, nationalCalls, and InternationalCalls.
+
+Usage
+Run the main class to start the program.
+Enter details for national and international calls.
+The program will calculate call charges and display the results.
+
+
+Classes
+main
+The main class initializes instances of nationalCalls and InternationalCalls, calculates call prices, applies discounts, and displays call details.
+
+nationalCalls
+Represents a national call. It includes attributes such as source and destination phone numbers, call duration, and call price. The class calculates call charges based on duration and applies discounts for longer calls.
+
+InternationalCalls
+Represents an international call. Similar to nationalCalls, this class includes additional attributes for source and destination country codes. It calculates call charges and applies discounts based on call duration and specific rates for international calls.
+
+
+How to Run
+Compile all Java files using a Java compiler.
+Run the main class.
+Enter call details as prompted.
+View calculated charges and discounts for both national and international calls.
+
+Additional Information
+This program demonstrates object-oriented programming concepts by modeling a call billing system. It showcases the use of classes, objects, attributes, methods, calculations, and data display.
+
