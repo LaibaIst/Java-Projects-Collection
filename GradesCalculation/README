@@ -1,0 +1,32 @@
+Grades Calculation Program
+This Java program calculates the grades of a student based on their quiz scores, mid-term, and terminal exam scores. The program converts scores into percentages and assigns letter grades based on the percentage obtained.
+
+License
+Introduction
+This program takes input from the user for quiz scores, mid-term, and terminal exam scores. It calculates the overall percentage and assigns a letter grade based on the percentage obtained. The Grades class handles the calculation and grading logic.
+
+Usage
+Compile and run the Main class to start the grades calculation program. The program prompts the user to enter quiz scores, mid-term, and terminal exam scores. It then calculates the overall percentage and displays the corresponding letter grade.
+
+Main Class
+The Main class contains the main method to run the grades calculation program. It demonstrates how to collect scores from the user and calculate the final grade.
+
+Usage
+Create a Grades object to calculate and assign the grade.
+Collect quiz scores, mid-term, and terminal exam scores from the user.
+Call methods to set and calculate scores, and get the final grade.
+Grades Class
+The Grades class handles the logic for calculating grades based on input scores. It calculates the overall percentage and assigns a letter grade based on the percentage.
+
+Methods
+setQuizzes(Double quizOne, Double quizTwo, Double quizThree): Set quiz scores.
+setMids(Double midTerm): Set mid-term score.
+setTerminal(Double terminal): Set terminal exam score.
+setQuizzesValues(): Calculate and display percentage for each quiz.
+setMids(): Calculate and display percentage for mid-term.
+setTerminal(): Calculate and display percentage for terminal exam.
+setSum(): Calculate overall sum and percentage.
+getTheGrade(): Get the final letter grade based on the percentage.
+
+Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests.
