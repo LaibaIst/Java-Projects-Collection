@@ -1,0 +1,27 @@
+Memory Card Game - Java
+This is a simple implementation of a memory card game written in Java. In this game, players need to match pairs of cards by flipping them over two at a time. The game continues until all pairs have been matched.
+
+How to Play
+Compile and run the main class to start the game.
+The game initializes a 4x4 grid of cards with hidden values.
+Players take turns entering the coordinates of two cards they want to flip.
+If the values on the flipped cards match, the cards remain face up.
+If the values on the flipped cards don't match, the cards are flipped back face down.
+Continue playing until all pairs are matched.
+
+Usage
+Clone or download the repository to your local machine.
+Open the project in your Java development environment.
+Compile and run the main class to start the game.
+
+Features
+Interactive command-line interface.
+Random shuffling of card values for each game.
+Simple logic for checking card matches.
+
+Code Structure
+main.java: Contains the main class with the game logic.
+deckClass.java: Defines the deckClass class responsible for managing the deck of cards and their behavior.
+
+Contributions
+Contributions are welcome! If you'd like to improve the game or add new features, feel free to fork this repository, make your changes, and submit a pull request.
