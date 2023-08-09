@@ -1,0 +1,35 @@
+Water Container Management
+This Java program simulates the management of water containers. It allows you to perform various actions such as filling, emptying, transferring, and displaying the status of containers.
+
+Introduction
+The program demonstrates a water container management system where you can manipulate water quantities within different containers. You can fill, empty, and transfer water between containers, as well as view container information.
+
+Usage
+Compile and run the main class to interact with the water container management system. Follow the prompts to input the desired actions.
+
+Container Class
+The container class defines the properties and methods for managing water containers.
+
+Properties
+maxCapacity: The maximum capacity of the container.
+givenQuantity: The current quantity of water in the container.
+ContainerNum: The container's identification number.
+
+Methods
+quantity(container aContainer, Integer aContainerNum): Displays the quantity of water in the specified container.
+leftover(container aContainer): Returns the quantity left in a container after it's been filled.
+full(container aContainer): Fills a container to its maximum capacity.
+empty(container aContainer): Empties a container.
+transfer(container aContainer, int amountToTransfer, container bContainer): Transfers a specified amount of water from one container to another.
+displayQuantity(container bContainer): Displays the quantity of water in a container after being filled.
+displayWhole(container aContainer): Displays all information about a container.
+
+Main Class
+The main class contains the main method for running the water container management system. It creates instances of the container class and allows users to perform actions on containers.
+
+Usage
+Create instances of container to represent different containers.
+Use methods like transfer, displayQuantity, and leftover to interact with the containers.
+
+Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests.
