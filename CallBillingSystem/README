@@ -1,4 +1,4 @@
-Call Billing System
+# Call Billing System
 This program simulates a call billing system that calculates and displays charges for both national and international calls. It takes user input for call details and calculates charges based on call duration and specific rates. The program consists of three main classes: main, nationalCalls, and InternationalCalls.
 
 Usage
