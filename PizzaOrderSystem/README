@@ -1,0 +1,36 @@
+Pizza Order Management System
+This Java program simulates a pizza order management system. It allows users to create and manage pizza orders, specifying pizza size and toppings, and calculates the total cost of the order.
+
+Introduction
+This program provides a simple interface for managing pizza orders. Users can create pizza objects, set their size and toppings, calculate the cost, and create an order containing multiple pizzas. The PizzaOrder class enables efficient order management and cost calculation.
+
+Usage
+Compile and run the MainRun class to initiate the pizza order management system. The program allows you to create pizza objects, set their attributes, create an order, and calculate the total cost.
+
+MainRun Class
+The MainRun class contains the main method to run the pizza order management simulation. It demonstrates how to create pizza objects, set their attributes, create an order, and calculate the total cost.
+
+Usage
+Create PizzaClass objects and set their attributes (size and toppings).
+Use calcCost method to calculate the cost of each pizza.
+Create a PizzaOrder object, add pizzas to it, and calculate the total cost of the order.
+PizzaClass Class
+The PizzaClass class defines pizza objects with size and toppings. It calculates the cost of each pizza based on its attributes.
+
+Methods
+setsizeOfPizza(char sizeOfPizza): Set the size of the pizza (S, M, L).
+setToppings(double hamTops, double cheeseTops, double pepperoniTops): Set the number of toppings.
+calcCost(): Calculate the cost of the pizza based on size and toppings.
+getDescription(): Get a description of the pizza, including size, toppings, and cost.
+PizzaOrder Class
+The PizzaOrder class manages pizza orders. It allows users to create an order, add pizzas to it, calculate the total cost, and clone orders.
+
+Methods
+setNumPizzas(int numPizzas): Set the number of pizzas in the order.
+setPizza(int index, PizzaClass newpizza): Set a pizza at a specific index in the order.
+calcTotal(): Calculate the total cost of the order.
+getpizza(int index): Get the pizza at a specific index in the order.
+pizzaOrder(PizzaOrder aPizzaOrder): Clone an existing pizza order.
+
+Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests.
