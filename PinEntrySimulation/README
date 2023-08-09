@@ -1,0 +1,26 @@
+Secure PIN Entry Simulation
+This Java program simulates a secure PIN entry scenario to protect against eavesdropping during ATM transactions. It generates a random set of digits that are used to obscure the actual PIN digits, preventing unauthorized access to the PIN information.
+
+Introduction
+This program addresses the issue of potential eavesdropping during PIN entry by generating a random sequence of digits that users need to input alongside their actual PIN digits. This random sequence acts as a security layer, ensuring that only the legitimate user can correctly enter the PIN.
+
+Usage
+Compile and run the main class to initiate the secure PIN entry process. Follow the prompts to input your PIN digits, alongside the randomly generated digits, as they appear on the screen. The program will verify if the input sequence matches the actual PIN.
+
+Main Class
+The main class contains the main method for running the secure PIN entry simulation. It generates random digits, prompts users to enter their PIN digits, and validates the sequence to enhance security.
+
+Usage
+The program generates a random sequence of digits.
+Users input their own PIN digits alongside the random sequence.
+The matchingPinFunc method from the matchingPin class is called to verify if the input sequence matches the actual PIN.
+MatchingPin Class
+The matchingPin class defines the logic for verifying if the user-provided PIN sequence matches the actual PIN digits.
+
+Methods
+matchingPinFunc(int usersPin[], int Randompin[], int[] thePin, int[] inputPin): Compares user-provided PIN sequence with actual PIN digits to verify if the sequence is correct.
+Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests.
