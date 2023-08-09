@@ -1,0 +1,38 @@
+Bubble Sort and Searching Algorithms - Java
+This Java program demonstrates the implementation of the Bubble Sort algorithm to sort an array of integers and provides options for searching using binary and linear search algorithms.
+
+Overview
+The Bubble Sort and Searching Algorithms program performs the following tasks:
+
+Accepts a list of integers from the user.
+Uses the Bubble Sort algorithm to sort the integers.
+Allows the user to search for a specific integer using binary or linear search.
+
+Features
+Bubble Sort: Implements the Bubble Sort algorithm to sort an array of integers.
+Binary Search: Enables searching for a specific integer using the binary search algorithm.
+Linear Search: Provides the option to search for an integer using the linear search algorithm.
+
+How to Run
+Clone or download the repository to your local machine.
+Open the project in your Java development environment.
+Compile and run the bubblesort class to start the program.
+
+Usage
+The program prompts you to enter integer values separated by spaces.
+Invalid inputs are handled, and valid inputs are stored in an ArrayList.
+The program displays the original list of integers.
+The Bubble Sort algorithm is applied to sort the integers.
+The sorted list of integers is displayed.
+You can enter a value to search for its index position in the array.
+Choose whether to use binary search or linear search for searching.
+The program displays the index position of the searched value or an error message.
+
+Files
+bubblesort.java: Contains the main class with the program's logic for sorting and searching.
+sorting.java: Defines the sorting class with methods for sorting and searching algorithms.
+Dependencies
+None
+
+Contributions
+Contributions are welcome! If you'd like to improve the program, add more searching algorithms, or enhance the user interface, feel free to fork this repository, make your changes, and submit a pull request.
